@@ -88,8 +88,8 @@
 // console.log("Multiples de 6 :", multiplede6(tableau50));
 
 
-//Exo5
-function multiples(tab, n){
+/*Exo5
+function multiples(tab, n) {
    let newTab = []
      for (i=0;i<tab.length;i++){
          if (tab[i] % n == 0) {
@@ -107,6 +107,25 @@ function multiples(tab, n){
  ];
 
  console.log(multiples(tableau50,4))
+*/
   
+ /*Exo6
+  const phrase = "Bonjour à tous, et bon courage";
+ let voyelle = ["a", "e", "i", "o", "u", "y"];
+ let resultat = "";
 
+ for(let i = 0 ; i < phrase.length ; i++){
+
+    if( voyelle.includes(phrase[i])){
+         // console.log(resultat)
+        resultat+="*"
+
+           }else{
+
+            resultat+=phrase[i];
+
+           }
+ }
+console.log(resultat)
+*/
 
